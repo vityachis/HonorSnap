@@ -1,0 +1,19 @@
+## Interface: 11509, 16001, 20506, 38002, 50504, 120100, 120105
+## Title: |cffffd100Honor|r|cffff4040Snap|r
+## Notes: Takes a screenshot every time you get an honorable kill in the open world.
+## Notes-ruRU: Делает скриншот каждый раз, когда вы получаете почетное убийство в открытом мире.
+## Author: vityachis
+## Version: @project-version@
+## X-Category: PvP
+## X-License: Apache-2.0
+## X-Website: https://github.com/vityachis/HonorSnap
+## X-Curse-Project-ID: 1739426
+## IconTexture: Interface\AddOns\HonorSnap\Media\icon
+## SavedVariables: HonorSnapDB
+## AddonCompartmentFunc: HonorSnap_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: HonorSnap_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: HonorSnap_OnAddonCompartmentLeave
+
+Locales.lua
+HonorSnap.lua
+Options.lua

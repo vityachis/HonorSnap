@@ -1,0 +1,13 @@
+package-as: HonorSnap
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+# Files that exist only for development and must not end up in the game's AddOns folder.
+# LICENSE and NOTICE stay in the package: Apache 2.0 requires shipping them.
+ignore:
+  - README.md
+  - CHANGELOG.md
+  - Media/logo.png
+  - .github

@@ -1,0 +1,22 @@
+name: Release
+
+# Pushing a tag such as v1.0.1 builds the addon archive and uploads it to CurseForge and GitHub Releases.
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: BigWigsMods/packager@v2
