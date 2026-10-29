@@ -96,6 +96,11 @@ In the `Screenshots` folder of your WoW installation, for example `World of Warc
 
 Bugs and suggestions: [GitHub issues](https://github.com/vityachis/HonorSnap/issues).
 
+## Credits
+
+- **Author:** Viktor Chystiakov ([vityachis](https://github.com/vityachis))
+- **Development help:** Claude (Anthropic)
+
 ## License
 
 [Apache License 2.0](LICENSE) © Viktor Chystiakov
